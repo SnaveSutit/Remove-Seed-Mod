@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "package": "seedRemover.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "SeedCommandMixin"
+  ],
+  "client": [],
+  "server": [],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

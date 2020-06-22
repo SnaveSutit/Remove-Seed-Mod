@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "remove-seed",
+  "version": "${version}",
+  "name": "SeedCommandRemover",
+  "description": "Removes the /seed command",
+  "authors": [
+    "SnaveSutit"
+  ],
+  "contributors": [],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/remove-seed/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "seedRemover.SeedRemoverMain"
+    ],
+    "client": [],
+    "server": []
+  },
+  "mixins": [
+    "remove-seed.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.4.0",
+    "fabric": "*"
+  }
+}
